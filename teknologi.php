@@ -7,26 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <!--  HEADER START -->
-    <header class="container mx-auto border border-gray-800 p-6" >
-        <h1 class="font-bold text-6xl mb-3">SaCode News</h1>
-        <p>Berbagai berita terbaru seputar SaCode</p>
-    </header>
-    <!-- HEADER END -->
+    <!-- header start -->
+    <?php include('include/header.php') ?>
+    <!-- header end -->
 
-
-    <!-- NAV START -->
-    <nav class  ="border border-gray-800 container mx-auto p-6 text-center">
-        <a href="" class="border-dotted border-2 border-indigo-400 py-3 px-4 bg-blue-400 hover:bg-blue-600 transition" > Beranda</a>
-        <a href="" class="border-dotted border-2 border-indigo-400 py-3 px-4 bg-blue-400 hover:bg-blue-600 transition"> Teknologi</a>
-        <a href="" class="border-dotted border-2 border-indigo-400 py-3 px-4 bg-blue-400 hover:bg-blue-600 transition"> Pendidikan</a>
-        <a href="" class="border-dotted border-2 border-indigo-400 py-3 px-4 bg-blue-400 hover:bg-blue-600 transition"> Pengembangan Diri</a>
-        <a href=""  class="border-dotted border-2 border-indigo-400 py-3 px-4 bg-blue-400 hover:bg-blue-600 transition"> Kursus</a>
-        <a href=""  class="border-dotted border-2 border-indigo-400 py-3 px-4 bg-blue-400 hover:bg-blue-600 transition"> Komunitas</a>
-        <a href=""  class="border-dotted border-2 border-indigo-400 py-3 px-4 bg-blue-400 hover:bg-blue-600 transition"> Lainnya</a>
-    </nav>
-
-    <!-- NAV END -->
+    <!-- nav start --> 
+    <?php include('include/nav.php') ?>
+    <!-- nav end -->
 
 
     <!-- MAIN CONTENT START -->
